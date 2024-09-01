@@ -26,10 +26,8 @@ export default function StockData() {
   const handleChange = (e) => {
     const date = e.target.value;
     setDate(date);
-    console.log(date);
   };
 
-  console.log(data);
 
   return (
     <div className="layout-column align-items-center mt-50">
@@ -73,7 +71,7 @@ export default function StockData() {
           id="no-result"
           data-testid="no-result"
         >
-          No results
+          No Results Found
         </div>
       )}
     </div>
